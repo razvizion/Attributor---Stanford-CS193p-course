@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6C6A3D10-0FB5-455E-BCF7-27DC62B8E86B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Attributor</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C17840F2-F6B4-42A4-9F14-69D35F874974</key>
+		<string>https://github.com/razvizion/Attributor---Stanford-CS193p-course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Attributor.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C17840F2-F6B4-42A4-9F14-69D35F874974</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/razvizion/Attributor---Stanford-CS193p-course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C17840F2-F6B4-42A4-9F14-69D35F874974</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C17840F2-F6B4-42A4-9F14-69D35F874974</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Attributor</string>
+		</dict>
+	</array>
+</dict>
+</plist>
