@@ -157,15 +157,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 colorful characters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGM-Kb-GtX">
-                                <rect key="frame" x="20" y="100" width="280" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 colorful characters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SGM-Kb-GtX">
+                                <rect key="frame" x="20" y="451" width="157" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 outlined characters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPJ-CR-q1H">
-                                <rect key="frame" x="20" y="129" width="280" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 outlined characters" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPJ-CR-q1H">
+                                <rect key="frame" x="20" y="422" width="162" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -173,6 +173,12 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="SGM-Kb-GtX" firstAttribute="leading" secondItem="hPJ-CR-q1H" secondAttribute="leading" id="0XM-Vd-RQr"/>
+                            <constraint firstItem="SGM-Kb-GtX" firstAttribute="leading" secondItem="ddt-MN-ckl" secondAttribute="leading" constant="20" symbolic="YES" id="JEj-YY-YaJ"/>
+                            <constraint firstItem="u5l-z0-54p" firstAttribute="top" secondItem="SGM-Kb-GtX" secondAttribute="bottom" constant="20" symbolic="YES" id="fbR-IO-aUF"/>
+                            <constraint firstItem="SGM-Kb-GtX" firstAttribute="top" secondItem="hPJ-CR-q1H" secondAttribute="bottom" constant="8" id="ylo-zG-0a0"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="IuZ-G1-QiJ"/>
                     <connections>
